@@ -1,0 +1,48 @@
+body{
+    background-color: gainsboro;  
+}
+.column{
+    /* text-align: center; */
+    padding-top: 20px;
+    padding-right:30%;
+    padding-left: 35%;
+}
+.container{
+    padding-left: -50px;
+}
+.card {
+    background-color: whitesmoke;
+    padding: 20px;
+    padding-right: 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h2{
+    text-align:center;
+    padding: 10px;
+}
+.row{
+    padding-top: 40px;
+}
+
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    /* resize: vertical; */
+  }
+  
+button{
+    background-color: #4CAF50;
+    color: whitesmoke;
+    border:none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
